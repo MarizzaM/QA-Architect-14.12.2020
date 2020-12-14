@@ -22,7 +22,7 @@ public class Main {
             b = scanner.nextInt();
             c = scanner.nextInt();
         }
-        while ( a+b == c);
+        while ( a+b != c);
 
         System.out.println(" ");
         do {
@@ -31,6 +31,6 @@ public class Main {
             b = scanner.nextInt();
             c = scanner.nextInt();
         }
-        while ( a!=b && a!=c && b!=c);
+        while ( a==b && a==c && b==c);
     }
 }
