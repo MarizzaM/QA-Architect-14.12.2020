@@ -15,7 +15,7 @@ public class Main {
         while (num <= 100);
 
         System.out.println(" ");
-        int a, b, c, sum;
+        int a, b, c;
         do {
             System.out.println("Please enter a, b, c: ");
             a = scanner.nextInt();
