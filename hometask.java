@@ -32,7 +32,7 @@ public class Main {
         while (true){
             System.out.print(String.format("%d ", num));
             num++;
-            if (num >= 1000){
+            if (num > 1000){
                 System.out.println(" ");
                 break;
             }
